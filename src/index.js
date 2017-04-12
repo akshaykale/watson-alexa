@@ -18,5 +18,5 @@ exports.handler = function(event, context, callback) {
   
 // Tell our app to listen on port 
 app.listen(process.env.PORT, function () {
-  logger.log('Node app is running on port', process.env.PORT);
+  console.log('Node app is running on port', process.env.PORT);
 });
