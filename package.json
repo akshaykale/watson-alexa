@@ -1,0 +1,34 @@
+{
+  "name": "watson-alexa",
+  "version": "1.0.0",
+  "description": "Experiment with alexa skill and watson conversation API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaykale/watson-alexa.git"
+  },
+  "keywords": [
+    "alexa",
+    "amazon",
+    "watson",
+    "conversation",
+    "bot",
+    "nodejs",
+    "node",
+    "ibm"
+  ],
+  "author": "Akshay Kale | ark.akshaykale@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaykale/watson-alexa/issues"
+  },
+  "homepage": "https://github.com/akshaykale/watson-alexa#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.8",
+    "express": "^4.15.2"
+  }
+}
